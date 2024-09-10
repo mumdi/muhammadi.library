@@ -110,6 +110,41 @@
             0% { opacity: 0.3; }
             100% { opacity: 1; }
         }
+
+         @media (max-width: 768px) {
+            body {
+                padding: 10px; /* Add padding on mobile */
+            }
+            h1 {
+                font-size: 2.5rem; /* Smaller heading on mobile */
+                margin-bottom: 1rem;
+            }
+            p {
+                font-size: 1rem; /* Adjust paragraph size */
+            }
+            .launch-container {
+                padding: 1rem; /* Reduce padding for smaller screens */
+            }
+            .logo {
+                width: 100px; /* Adjust logo size */
+            }
+            .moon {
+                width: 50px; /* Smaller moon for mobile */
+                height: 50px;
+            }
+            .lantern {
+                width: 20px;
+                height: 30px; /* Reduce lantern size */
+            }
+            .lantern::before {
+                width: 5px; /* Adjust lantern top decoration */
+                height: 5px;
+            }
+            .star {
+                width: 4px; /* Smaller stars */
+                height: 4px;
+            }
+        }
     </style>
 </head>
 <body>
